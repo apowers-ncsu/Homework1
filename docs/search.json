@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "quartoDataScience.html",
+    "href": "quartoDataScience.html",
+    "title": "Data Science",
+    "section": "",
+    "text": "Data scientists are often statisticians that specialize in business contexts and communication with non-statisticians. While I read the assigned topics on different points of view between data scientists and statisticians, my response here is directed more by my experience in the digital marketing field. Each of the roles works with models and algorithms and problem solving, but I perceive a statistician to be more of a pure mathematician that is less personally involved with highly dynamic, cross-functional business questions. The readings did reassure me that the label data scientist is as fabricated, fresh, and ambiguous as it feels to me.\nI am more aligned to the label of data scientist than statistician. I want to understand how to ask statistics questions fairly and evaluate them robustly. I like doing this in busy and dynamic environments where the question, analysis, and presentation all require care and creativity. Ways that I hope to change by increased mastery of statistics include:\n\ngaining an intuitive sense of questions that are fair to ask\nknowing how to select from multiple approaches to a question\napplying increased rigor to analysis so that any interpretations I make are clearly justified or qualified"
+  },
+  {
+    "objectID": "quartoDataScience.html#data-scientists-and-statisticians",
+    "href": "quartoDataScience.html#data-scientists-and-statisticians",
+    "title": "Data Science",
+    "section": "",
+    "text": "Data scientists are often statisticians that specialize in business contexts and communication with non-statisticians. While I read the assigned topics on different points of view between data scientists and statisticians, my response here is directed more by my experience in the digital marketing field. Each of the roles works with models and algorithms and problem solving, but I perceive a statistician to be more of a pure mathematician that is less personally involved with highly dynamic, cross-functional business questions. The readings did reassure me that the label data scientist is as fabricated, fresh, and ambiguous as it feels to me.\nI am more aligned to the label of data scientist than statistician. I want to understand how to ask statistics questions fairly and evaluate them robustly. I like doing this in busy and dynamic environments where the question, analysis, and presentation all require care and creativity. Ways that I hope to change by increased mastery of statistics include:\n\ngaining an intuitive sense of questions that are fair to ask\nknowing how to select from multiple approaches to a question\napplying increased rigor to analysis so that any interpretations I make are clearly justified or qualified"
+  },
+  {
+    "objectID": "quartoDataScience.html#density-code-section",
+    "href": "quartoDataScience.html#density-code-section",
+    "title": "Data Science",
+    "section": "Density Code Section",
+    "text": "Density Code Section\nFirst, our density function set to the y variable:\n\ny &lt;- density(iris$Petal.Width)\n\nNext, we examine the characteristics of the object y:\n\nClass:\n\n\nclass(y)\n\n[1] \"density\"\n\n\n\nType:\n\n\ntypeof(y)\n\n[1] \"list\"\n\n\n\nStructure:\n\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nLast, a plot of y, showing its density function across petal widths: (code chunk hidden)"
+  }
+]

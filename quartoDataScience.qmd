@@ -1,0 +1,44 @@
+---
+title: "Data Science"
+format: html
+editor: visual
+---
+
+## Data Scientists and Statisticians
+
+Data scientists are often statisticians that specialize in business contexts and communication with non-statisticians. While I read the assigned topics on different points of view between data scientists and statisticians, my response here is directed more by my experience in the digital marketing field. Each of the roles works with models and algorithms and problem solving, but I perceive a statistician to be more of a pure mathematician that is less personally involved with highly dynamic, cross-functional business questions. The readings did reassure me that the label *data scientist* **is** as fabricated, fresh, and ambiguous as it feels to me.
+
+I am more aligned to the label of data scientist than statistician. I want to understand how to ask statistics questions fairly and evaluate them robustly. I like doing this in busy and dynamic environments where the question, analysis, and presentation all require care and creativity. Ways that I hope to change by increased mastery of statistics include:
+
+-   gaining an intuitive sense of questions that are fair to ask
+-   knowing how to select from multiple approaches to a question
+-   applying increased rigor to analysis so that any interpretations I make are clearly justified or qualified
+
+## Density Code Section
+
+First, our density function set to the *y* variable:
+```{r}
+y <- density(iris$Petal.Width)
+```
+
+Next, we examine the characteristics of the object *y*:
+
+- Class:
+```{r}
+class(y)
+```
+
+- Type:
+```{r}
+typeof(y)
+```
+- Structure:
+```{r}
+str(y)
+```
+Last, a plot of *y*, showing its density function across petal widths: (*code chunk hidden*)
+```{r}
+#| echo: false
+plot(y,
+     main="Density of iris.Petal.Width")
+```
